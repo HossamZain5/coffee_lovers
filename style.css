@@ -1,0 +1,128 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #9a7b4d;
+    cursor: default;
+}
+.H{
+    color: rgb(129, 88, 25);
+    border: 2px solid black;
+    background-color: rgb(103, 78, 14);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.O{
+    color:rgb(129, 88, 25) ;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.S p , .M P , .y p , .f table{
+    color: rgb(36, 36, 14);
+}
+.A , .x , .c , .q{
+
+    color: rgb(129, 88, 25);
+    text-align: center;
+    
+}
+.y #first::first-letter{
+    color: white;
+    font-size: 30px;
+}
+.y #second::first-letter{
+    color: white;
+    font-size: 30px;
+}
+.y #third::first-letter{
+    color: white;
+    font-size: 30px;
+}
+.ani p{
+    font-family: fantasy;
+    font-size: large;
+}
+.ani p{
+    width: 200px;
+    height: 200px;
+    background-image: url(1.jpg);
+    background-color: #785c33;
+    animation-name: coffee;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes coffee {
+    0% {background-color: #785c33; translate: 0px 0px;}
+    20% {background-color: #7b481c; translate: 0px 100px;}
+    40% {background-color: #4b371a; translate: 100px 100px;}
+    60% {background-color: #3d280d; translate: 100px 0px;}
+    80% {background-color: #66350f; translate: 0px 0px;}
+    100% {background-color: #3c1e08 ; translate: 0px 0px;}
+}
+.ani2{
+    width: 75px;
+    height: 25px;
+    background-color: aliceblue;
+    animation-name: ani2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani2{
+    0% {background-color: #4b371a; translate: 0px 0px;}
+    50% {background-color: rgb(115, 115, 13); translate: 50px 0px;}
+    100% {background-color: #785c33; translate: 0px 0px;}
+}
+/* unvisited link */
+a:link{
+    color: rgb(129, 88, 25);
+}
+/* visited link*/
+a:visited{
+    color: brown;
+}
+/* mouse over link */
+a:hover{
+    color: purple;
+}
+/* selected link */
+a:active{
+    color: blue;
+}
+.q{
+    text-align: center;
+    font-size: large;
+}
+h5{
+    color: rgb(36, 36, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 10px;
+    cursor: text;
+}
+#form{
+    margin: 10px 20px;
+}
+#next{
+    border-radius: 20px;
+    height: 20px;
+    width: 80px;
+    background-color: rgb(86, 41, 9);
+    color: white;
+    margin: 20px;
+}
+#next:hover{
+    background-color: #785c33;
+    color: white;
+    cursor: pointer;
+}
+.q h1:hover{
+    cursor: pointer;
+}
+.O h1:hover{
+cursor: pointer;
+}
